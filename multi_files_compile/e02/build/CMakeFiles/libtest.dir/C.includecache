@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/test/myprj/cprj/multifiles_compile/e02/common/libtest.h
+stdio.h
+-
+
+/home/test/myprj/cprj/multifiles_compile/e02/lib/libtest.c
+../common/libtest.h
+/home/test/myprj/cprj/multifiles_compile/e02/common/libtest.h
+

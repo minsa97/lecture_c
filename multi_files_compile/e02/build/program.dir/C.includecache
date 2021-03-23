@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/test/myprj/cprj/multifiles_compile/e02/common/libtest.h
+stdio.h
+-
+
+/home/test/myprj/cprj/multifiles_compile/e02/main/function.c
+function.h
+/home/test/myprj/cprj/multifiles_compile/e02/main/function.h
+
+/home/test/myprj/cprj/multifiles_compile/e02/main/function.h
+stdio.h
+-
+
+/home/test/myprj/cprj/multifiles_compile/e02/main/main.c
+stdio.h
+-
+function.h
+/home/test/myprj/cprj/multifiles_compile/e02/main/function.h
+../common/libtest.h
+/home/test/myprj/cprj/multifiles_compile/e02/common/libtest.h
+

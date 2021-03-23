@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,liblibtest.so -o liblibtest.so CMakeFiles/libtest.dir/home/test/myprj/cprj/multifiles_compile/e02/lib/libtest.c.o 

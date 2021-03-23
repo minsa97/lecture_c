@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/../program.dir/home/test/myprj/cprj/multifiles_compile/e02/main/main.c.o CMakeFiles/../program.dir/home/test/myprj/cprj/multifiles_compile/e02/main/function.c.o  -o ../program -rdynamic liblibtest.so -Wl,-rpath,/home/test/myprj/cprj/multifiles_compile/e02/build: 

@@ -1,0 +1,3 @@
+/home/test/myprj/cprj/multifiles_compile/e01/CMakeFiles/rebuild_cache.dir
+/home/test/myprj/cprj/multifiles_compile/e01/CMakeFiles/edit_cache.dir
+/home/test/myprj/cprj/multifiles_compile/e01/CMakeFiles/main.dir

@@ -1,0 +1,6 @@
+diary : main.o memo.o calendar.o
+	gcc -o diary main.o memo.o calendar.o
+
+main.o : diary.h main.c
+memo.o : diary.h memo.c
+calendar.o : diary.h calendar.c
