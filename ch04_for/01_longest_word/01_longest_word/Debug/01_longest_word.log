@@ -1,0 +1,3 @@
+﻿  longest_word.c
+C:\mygit\lecture_c\ch04_for\01_longest_word\01_longest_word\longest_word.c(31,5): warning C4098: 'main': 'void' 함수에서 값을 반환하고 있습니다.
+  01_longest_word.vcxproj -> C:\mygit\lecture_c\ch04_for\01_longest_word\Debug\01_longest_word.exe
